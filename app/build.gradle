@@ -38,20 +38,22 @@ android {
 
 dependencies {
 
-    //viewModel
+    // viewModel
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1"
-    //lifedata
+    // lifedata
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.5.1"
-    //Fragment
+    // Fragment
     implementation "androidx.fragment:fragment-ktx:1.5.5"
-    //Activity
+    // Activity
     implementation "androidx.activity:activity-ktx:1.6.1"
-
-    //SwipeRefreshLayout
+    // SwipeRefreshLayout
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
-
-    //Picasso
+    // Picasso
     implementation 'com.squareup.picasso:picasso:2.8'
+    // Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
