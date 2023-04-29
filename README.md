@@ -2,4 +2,7 @@
 
 A mobile app that show a dog's image and its breed. Project created to practice the MVVM pattern with Clean Architecture
 
-![Walkthrough animation](gifs/app-example.gif)
+
+<p align="center">
+    <img src="gifs/app-example.gif" alt="MVVM Walkthrough" />
+</p>
